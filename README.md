@@ -12,14 +12,16 @@ Il s'agit donc d'un petit écran d'une résolution de 128 pixels de large par 64
 J'ai utilisé la librairie U8Glib qui semble etre la plus simple: [https://code.google.com/p/u8glib/](https://code.google.com/p/u8glib/) 
 
 Pour le câblage: 
-VCC sur 3.3V 
-GND sur GND 
-SCL sur SCL 
-SDA sur SDA
+
+ * VCC sur 3.3V 
+ * GND sur GND 
+ * SCL sur SCL 
+ * SDA sur SDA
 
 Simple, n'est-ce pas ? Sketch utilisé pour cette démo:
 
-<pre class="theme:arduino-ide lang:arduino decode:true " title="Hello World">#include "U8glib.h"
+```Arduino
+#include "U8glib.h"
 U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NO_ACK);  // Identifier for this display board
 
 void draw(void) {
@@ -55,7 +57,8 @@ void loop(void) {
   // rebuild the picture after some delay
   delay(50);
 }
-</pre>
+```
 
 Et voilà !
+
 [![IMG_20150519_184003](http://blog.alexweb.me/wp-content/uploads/2015/05/IMG_20150519_1840031-290x220.jpg)](http://blog.alexweb.me/wp-content/uploads/2015/05/IMG_20150519_1840031.jpg)
