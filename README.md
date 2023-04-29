@@ -5,11 +5,11 @@ Arduino code from http://blog.alexweb.me/2015/ecran-oled-128x64-096-pour-arduino
 
 Aujourd'hui j'ai reçu un petit écran OLED pour Arduino :
 
-[![](http://i01.i.aliimg.com/wsphoto/v0/2053303145_1/0-96-Inch-I2C-IIC-Serial-font-b-128X64-b-font-font-b-OLED-b-font.jpg_220x220.jpg)<span style="display: block;">Ecran OLED 0.96" 128X64 blanc pour Arduino</span>](http://s.click.aliexpress.com/e/7q7eIqFE2)
+[![](http://i01.i.aliimg.com/wsphoto/v0/2053303145_1/0-96-Inch-I2C-IIC-Serial-font-b-128X64-b-font-font-b-OLED-b-font.jpg_220x220.jpg)<span style="display: block;">Ecran OLED 0.96" 128X64 blanc pour Arduino</span>](https://s.click.aliexpress.com/e/_DDIVYsl)
 
 Il s'agit donc d'un petit écran d'une résolution de 128 pixels de large par 64 pixels de haut, qui peut être suffisant pour certaines applications. Aussi, la technologie OLED est la plus confortable car chaque pixel est sa propre source de lumière, il n'y a donc pas de rétro-éclairage nécessaire.
 
-J'ai utilisé la librairie U8Glib qui semble etre la plus simple: [https://code.google.com/p/u8glib/](https://code.google.com/p/u8glib/) 
+J'ai utilisé la librairie U8Glib qui semble etre la plus simple: [https://github.com/olikraus/u8glib](https://github.com/olikraus/u8glib) 
 
 Pour le câblage: 
 
